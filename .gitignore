@@ -1,0 +1,16 @@
+# Ignorar carpetas generadas por Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignorar archivos comprimidos o binarios grandes
+*.zip
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Evitar que se suban credenciales por accidente
+*.pem
+*.key
+*.env
